@@ -14,7 +14,7 @@
   color: white;
 }
 
-.mas-berrugues ::v-deep .p-inputnumber-button {
+.mas-berrugues >>> .p-inputnumber-button {
   background-color: #C19B76;
   border: 1px solid #C19B76;
 }
@@ -35,7 +35,7 @@
   color: white;
 }
 
-.by-gm ::v-deep .p-inputnumber-button {
+.by-gm >>> .p-inputnumber-button {
   background-color: #bf9d70;
   border: 1px solid #bf9d70;
 }
