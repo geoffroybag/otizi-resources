@@ -1,39 +1,41 @@
-.mas-berrugues {
-  &.has-text-primary {
-    color: #C19B76 !important;
-    font-family: 'Roboto Condensed';
-  }
-  &.button {
-    background-color: #C19B76;
-    font-family: 'Roboto Condensed';
-    text-transform: uppercase;
-    &.is-light {
-      background-color: findLightColor(#C19B76);
-      color: white;
-    }
-  }
-  & ::v-deep .p-inputnumber-button {
-    background-color: #C19B76;
-    border: 1px solid #C19B76;
-  }
+.mas-berrugues.has-text-primary {
+  color: #C19B76 !important;
+  font-family: 'Roboto Condensed';
 }
 
-.by-gm {
-  &.has-text-primary {
-    color: #bf9d70 !important;
-    font-family: 'Hind';
-  }
-  &.button {
-    background-color: #bf9d70;
-    font-family: 'Hind';
-    text-transform: uppercase;
-    &.is-light {
-      background-color: findLightColor(#bf9d70);
-      color: white;
-    }
-  }
-  & ::v-deep .p-inputnumber-button {
-    background-color: #bf9d70;
-    border: 1px solid #bf9d70;
-  }
+.mas-berrugues.button {
+  background-color: #C19B76;
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+}
+
+.mas-berrugues.button.is-light {
+  background-color: findLightColor(#C19B76);
+  color: white;
+}
+
+.mas-berrugues ::v-deep .p-inputnumber-button {
+  background-color: #C19B76;
+  border: 1px solid #C19B76;
+}
+
+.by-gm.has-text-primary {
+  color: #bf9d70 !important;
+  font-family: 'Hind';
+}
+
+.by-gm.button {
+  background-color: #bf9d70;
+  font-family: 'Hind';
+  text-transform: uppercase;
+}
+
+.by-gm.button.is-light {
+  background-color: findLightColor(#bf9d70);
+  color: white;
+}
+
+.by-gm ::v-deep .p-inputnumber-button {
+  background-color: #bf9d70;
+  border: 1px solid #bf9d70;
 }
