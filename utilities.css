@@ -4,7 +4,7 @@
 }
 
 .mas-berrugues.button {
-  background-color: #C19B76;
+  background-color: #C19B76 !important;
   font-family: 'Roboto Condensed';
   text-transform: uppercase;
 }
@@ -15,8 +15,8 @@
 }
 
 .mas-berrugues >>> .p-inputnumber-button {
-  background-color: #C19B76;
-  border: 1px solid #C19B76;
+  background-color: #C19B76 !important;
+  border: 1px solid #C19B76 !important;
 }
 
 .by-gm.has-text-primary {
@@ -25,7 +25,7 @@
 }
 
 .by-gm.button {
-  background-color: #bf9d70;
+  background-color: #bf9d70 !important;
   font-family: 'Hind';
   text-transform: uppercase;
 }
@@ -36,6 +36,6 @@
 }
 
 .by-gm >>> .p-inputnumber-button {
-  background-color: #bf9d70;
-  border: 1px solid #bf9d70;
+  background-color: #bf9d70 !important;
+  border: 1px solid #bf9d70 !important;
 }
