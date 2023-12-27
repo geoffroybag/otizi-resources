@@ -1,0 +1,58 @@
+.mas-berrugues {
+  &.has-text-primary {
+    color: #C19B76 !important;
+    font-family: 'Roboto Condensed';
+  }
+  &.button {
+    background-color: #C19B76;
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    &.is-light {
+      background-color: findLightColor(#C19B76);
+      color: white;
+    }
+  }
+  & ::v-deep .p-inputnumber-button {
+    background-color: #C19B76;
+    border: 1px solid #C19B76;
+  }
+}
+
+.by-gm {
+  &.has-text-primary {
+    color: #D35B25 !important;
+    font-family: 'Hind';
+  }
+  &.button {
+    background-color: #D35B25;
+    font-family: 'Hind';
+    text-transform: uppercase;
+    &.is-light {
+      background-color: findLightColor(#D35B25);
+      color: white;
+    }
+  }
+  & ::v-deep .p-inputnumber-button {
+    background-color: #bf9d70;
+    border: 1px solid #bf9d70;
+  }
+}
+
+.la-bella-vista {
+  &.has-text-primary {
+    color: #D35B25 !important;
+    font-family: 'Handlee';
+  }
+  &.button {
+    background-color: #D35B25;
+    font-family: 'Handlee';
+    &.is-light {
+      background-color: findLightColor(#D35B25);
+      color: white;
+    }
+  }
+  & ::v-deep .p-inputnumber-button {
+    background-color: #D35B25;
+    border: 1px solid #D35B25;
+  }
+}
