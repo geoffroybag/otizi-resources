@@ -20,15 +20,15 @@
 
 .by-gm {
   &.has-text-primary {
-    color: #D35B25 !important;
+    color: #bf9d70 !important;
     font-family: 'Hind';
   }
   &.button {
-    background-color: #D35B25;
+    background-color: #bf9d70;
     font-family: 'Hind';
     text-transform: uppercase;
     &.is-light {
-      background-color: findLightColor(#D35B25);
+      background-color: findLightColor(#bf9d70);
       color: white;
     }
   }
@@ -54,5 +54,98 @@
   & ::v-deep .p-inputnumber-button {
     background-color: #D35B25;
     border: 1px solid #D35B25;
+  }
+}
+
+.cocon-matignon {
+  &.has-text-primary {
+    color: #1e9695 !important;
+  }
+  &.button {
+    background-color: #1e9695;
+    &.is-light {
+      background-color: findLightColor(#1e9695);
+      color: white;
+    }
+  }
+  & ::v-deep .p-inputnumber-button {
+    background-color: #1e9695;
+    border: 1px solid #1e9695;
+  }
+}
+
+.jardin-en-ville {
+  &.has-text-primary {
+    color: #545454 !important;
+    font-family: 'Montserrat';
+  }
+  &.button {
+    background-color: #545454;
+    font-family: 'Montserrat';
+    &.is-light {
+      background-color: findLightColor(#545454);
+      color: white;
+    }
+  }
+  & ::v-deep .p-inputnumber-button {
+    background-color: #545454;
+    border: 1px solid #545454;
+  }
+}
+
+.aubonheurdezange {
+  &.has-text-primary {
+    color: #317A86 !important;
+    font-family: 'Montserrat';
+  }
+  &.button {
+    background-color: #317A86;
+    font-family: 'Montserrat';
+    &.is-light {
+      background-color: findLightColor(#317A86);
+      color: white;
+    }
+  }
+  & ::v-deep .p-inputnumber-button {
+    background-color: #317A86;
+    border: 1px solid #317A86;
+  }
+}
+
+.jardin-metairie {
+  &.has-text-primary {
+    color: #3bb299 !important;
+    font-family: 'Lora';
+  }
+  &.button {
+    background-color: #3bb299;
+    font-family: 'Lora';
+    &.is-light {
+      background-color: findLightColor(#3bb299);
+      color: white;
+    }
+  }
+  & ::v-deep .p-inputnumber-button {
+    background-color: #3bb299;
+    border: 1px solid #3bb299;
+  }
+}
+
+.les-cles-du-bonheur {
+  &.has-text-primary {
+    color: #45b39d !important;
+    font-family: 'Nunito';
+  }
+  &.button {
+    background-color: #45b39d;
+    font-family: 'Nunito';
+    &.is-light {
+      background-color: findLightColor(#45b39d);
+      color: white;
+    }
+  }
+  & ::v-deep .p-inputnumber-button {
+    background-color: #45b39d;
+    border: 1px solid #45b39d;
   }
 }
